@@ -12,10 +12,9 @@ module.exports = function(io){
 io.sockets.on('connection', function (socket) {
 	// when the client emits 'adduser', this listens and executes
 	socket.on('adduser', function(data){
-		log.info('userid:'+data.userid+'adduser :to a new simulator :'+data.simid +'request');
+		log.info('SOC ==> userid:'+data.userid+'adduser :to a new simulator :'+data.simid +'request');
 		var timeStamp = util.getCurrentTimestamp();
 		var name;
-		var JSONobj = new Object();
 		// store the username in the socket session for this client
 		socket.userId = data.userid;
 		// store the room name in the socket session for this client
@@ -24,113 +23,112 @@ io.sockets.on('connection', function (socket) {
 		engine[name] = data.userid;
 		// send client to socket.room
 		socket.join(data.simid);
-		// echo to client they've connected
-		JSONobj = {"simid":socket.simid};
-		//socket.emit('chatroom', JSONobj);
-		// echo to socket.room that a person has connected to their room
-		JSONobj = {"userid":data.userid, "simid":data.simid, "timestamp":timeStamp};
-		
-		// try{
-		// 	var room = io.sockets.adapter.rooms[socket.simid];
-		// 	var numberOfUsers = Object.keys(room).length;
-		// 	console.log("Simulator  - Number of participants:"+numberOfUsers);
-		// }
-		// catch(err)
-		// {
-		// 	console.log("Simulator - error getting the participants");
-		// }
 	});
 	
 	
 	// Engine ON/OFF info to Cockpit from the Simulator
 	socket.on('engine',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'EngineStatus');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'EngineStatus');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('engine', data);
 	});
 	
 	//Accessories status to be sent to Cockpit
 	socket.on('accessories',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'accessories');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'accessories');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('accessories', data);
 	});
 
 	// Lamp status to be sent to Cockpit
 	socket.on('lamp',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'lamp');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'lamp');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('lamp', data);
 	});
 
 	//Running status to be sent to Cockpit
 	socket.on('speed',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'speed');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'speed');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('speed', data);
 	});
 
 	//Wifi ON/OFF status to be sent to Simulator
 	socket.on('wifi',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'wifi');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'wifi ON/OFF');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('wifi', data);
 	});
 
 	//BL ON/OFF status to be sent to Simulator
-	socket.on('bl',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'Bluetooth');
+	socket.on('bt',function(data){
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'Bluetooth ON/OFF');
 		var JSONobj = new Object();
-		socket.broadcast.to(data.simid).emit('bl', data);
+		socket.broadcast.to(data.simid).emit('bt', data);
 	});
 
 	//Media ON/OFF status to be sent to Simulator
 	socket.on('media',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'media');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'media ON/OFF');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('media', data);
 	});
 
-	//lock ON/OFF status to be sent to Simulator
-	socket.on('lock',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'lock');
+	//AirCondition ON/OFF status to be sent to Simulator
+	socket.on('ac',function(data){
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'AirCondition ON/OFF');
 		var JSONobj = new Object();
-		socket.broadcast.to(data.simid).emit('lock', data);
+		socket.broadcast.to(data.simid).emit('ac', data);
 	});
 
 	//currentstatus of simulator --> to sent to Simulator (Asking for status)
 	socket.on('currentstatus',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'currentstatus');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'currentstatus');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('currentstatus', data);
 	});
 
-	//currentstatus of simulator --> to sent to Simulator (Asking for status)
+	//currentstatus of simulator --> to sent to Cockpit (Providing status to Cockpit)
 	socket.on('simstatus',function(data){
-		log.info('simid:'+data.simid+'userid:'+data.userid+'simstatus');
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'simstatus');
 		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('simstatus', data);
 	});
 
-
-	socket.on('useradded',function(data){
-		var time = util.getCurrentTimestamp();
-		log.info('RoomID:'+data.roomid+'userId:'+data.userid+'useradded');
+	//simulator --> to sent to Cockpit
+	socket.on('hb',function(data){
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'HandBrake status');
 		var JSONobj = new Object();
-		//send userremoved to update the clients
-		JSONobj = {"userid":data.userid, "roomid":data.roomid};
-		socket.broadcast.to(data.roomid).emit('useradded', JSONobj);
+		socket.broadcast.to(data.simid).emit('hb', data);
 	});
 
-	socket.on('newroomadded',function(data){
-		log.info("new room added called");
-		var time = util.getCurrentTimestamp();
-		// log.info('RoomID:'+data.roomid+'newroomadded');
-/*		var JSONobj = new Object();
-		//send userremoved to update the clients
-		JSONobj = {"userid":data.userid, "roomid":data.roomid};*/
-		socket.broadcast.emit('newroomadded', data);
+	//simulator --> to sent to Cockpit
+	socket.on('indicator',function(data){
+		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'indicator status');
+		var JSONobj = new Object();
+		socket.broadcast.to(data.simid).emit('indicator', data);
 	});
+
+
+// 	socket.on('useradded',function(data){
+// 		var time = util.getCurrentTimestamp();
+// 		log.info('RoomID:'+data.roomid+'userId:'+data.userid+'useradded');
+// 		var JSONobj = new Object();
+// 		//send userremoved to update the clients
+// 		JSONobj = {"userid":data.userid, "roomid":data.roomid};
+// 		socket.broadcast.to(data.roomid).emit('useradded', JSONobj);
+// 	});
+
+// 	socket.on('newroomadded',function(data){
+// 		log.info("new room added called");
+// 		var time = util.getCurrentTimestamp();
+// 		// log.info('RoomID:'+data.roomid+'newroomadded');
+// /*		var JSONobj = new Object();
+// 		//send userremoved to update the clients
+// 		JSONobj = {"userid":data.userid, "roomid":data.roomid};*/
+// 		socket.broadcast.emit('newroomadded', data);
+// 	});
 
 	// when the user disconnects.. perform this
 	socket.on('disconnect', function(){
