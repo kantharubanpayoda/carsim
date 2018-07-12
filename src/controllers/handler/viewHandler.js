@@ -44,7 +44,7 @@ wifi = function(req,res){
 }
 module.exports.wifi = wifi;
 
-//routes.post('/radio',viewHandler.media);
+//routes.post('/media',viewHandler.media);
 media = function(req,res){
     log.info("API ==>media");
     var simId = req.body.simid;
