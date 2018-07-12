@@ -8,6 +8,7 @@ var log = require('./src/lib/logger');
 var express = require('express');
 var RateLimit = require('express-rate-limit');
 var localClient = require('socket.io-client');
+var path = require('path');
     //global app object creation
     app = express();
 var http = require('http').Server(app);
@@ -44,8 +45,9 @@ app.use(function (req, res, next) {
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-
-
+app.set('assets', path.join(__dirname, 'assets'));
+app.use(express.static(__dirname + '/public'));
+app.locals.rootDir=__dirname;
 
 http.listen(port, function(){
 	log.info('Node Server listening on port$:'+port);

@@ -29,84 +29,73 @@ io.sockets.on('connection', function (socket) {
 	// Engine ON/OFF info to Cockpit from the Simulator
 	socket.on('engine',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'EngineStatus');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('engine', data);
 	});
 	
 	//Accessories status to be sent to Cockpit
 	socket.on('accessories',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'accessories');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('accessories', data);
 	});
 
 	// Lamp status to be sent to Cockpit
 	socket.on('lamp',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'lamp');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('lamp', data);
 	});
 
 	//Running status to be sent to Cockpit
 	socket.on('speed',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'speed');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('speed', data);
 	});
 
 	//Wifi ON/OFF status to be sent to Simulator
 	socket.on('wifi',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'wifi ON/OFF');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('wifi', data);
 	});
 
 	//BL ON/OFF status to be sent to Simulator
 	socket.on('bt',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'Bluetooth ON/OFF');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('bt', data);
 	});
 
 	//Media ON/OFF status to be sent to Simulator
 	socket.on('media',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'media ON/OFF');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('media', data);
 	});
 
 	//AirCondition ON/OFF status to be sent to Simulator
 	socket.on('ac',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'AirCondition ON/OFF');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('ac', data);
 	});
 
 	//currentstatus of simulator --> to sent to Simulator (Asking for status)
 	socket.on('currentstatus',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'currentstatus');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('currentstatus', data);
 	});
 
 	//currentstatus of simulator --> to sent to Cockpit (Providing status to Cockpit)
 	socket.on('simstatus',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'simstatus');
-		var JSONobj = new Object();
+		log.info("SIM status :"+JSON.stringify(data));
 		socket.broadcast.to(data.simid).emit('simstatus', data);
 	});
 
 	//simulator --> to sent to Cockpit
 	socket.on('hb',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'HandBrake status');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('hb', data);
 	});
 
 	//simulator --> to sent to Cockpit
 	socket.on('indicator',function(data){
 		log.info('SOC ==> simid:'+data.simid+'userid:'+data.userid+'indicator status');
-		var JSONobj = new Object();
 		socket.broadcast.to(data.simid).emit('indicator', data);
 	});
 
