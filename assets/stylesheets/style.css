@@ -59,3 +59,24 @@ input:checked + .slider:before {
 .labelMargin{
   margin: 10px 0px 10px;
 }
+.switch.material-icons{
+  font-size: 32px;
+}
+.lamp-active{
+  font-weight: bold;
+  color: yellow;
+}
+.engine-active{
+  font-weight: bold;
+  color: orangered;
+}
+.bt-active{
+  /* font-weight: bold; */
+  color: #1DA1F2;
+}
+#dashboardBt{
+  left: -15px;
+}
+.clickable:hover{
+  opacity: 0.7;
+}

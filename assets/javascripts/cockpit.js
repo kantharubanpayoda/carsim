@@ -63,17 +63,25 @@ function getCurrentStateOfSimulator(){
 
 socket.on('engine', function (data) {
     console.log("Listening engine "+JSON.stringify(data));
-    $("#engineState").prop('checked',data.status);
-  if(data.status){
-    $(".otherControlsDashboard").show();
-  }else{
-    $(".otherControlsDashboard").hide();
-  }
+    // $("#engineState").prop('checked',data.status);
+    if(data.status){
+      console.log("lamp on")
+      $("#engineState").addClass('engine-active'); 
+      $(".otherControlsDashboard").show();       
+    }else{
+      $(".otherControlsDashboard").hide();
+      $("#engineState").removeClass( "engine-active" )
+    }
 });
 
 socket.on('lamp', function (data) {
   console.log("Listening speed "+JSON.stringify(data));
-  $("#lampState").prop('checked',data.status);
+  if(data.status){
+    console.log("lamp on")
+    $("#lampState").addClass('lamp-active');  
+  }else{
+    $("#lampState").removeClass( "lamp-active" )
+  }
 });
 
 socket.on('speed', function (data) {
@@ -84,8 +92,23 @@ socket.on('speed', function (data) {
 
 socket.on('accessories', function (data) {
   console.log("Listening accessories "+JSON.stringify(data));
-  $("#dashboardWifi").prop('checked',data.accessories.wifi);
-  $("#dashboardBt").prop('checked',data.accessories.bt);
+  // $("#dashboardWifi").prop('checked',data.accessories.wifi);
+  //wifi status update
+  if(data.accessories.wifi){
+    console.log("wifi on")
+    $('#dashboardWifi').text("wifi");
+    
+  }else{
+    $('#dashboardWifi').text("wifi_off");     
+  }
+  // $("#dashboardBt").prop('checked',data.accessories.bt);
+  if(!data.accessories.bt){
+    console.log("bt on")
+    $('#dashboardBt').removeClass("bt-active");
+    
+  }else{
+    $('#dashboardBt').addClass("bt-active");     
+  }
   $("#dashboardMedia").prop('checked',data.accessories.media);
 });
 
@@ -93,15 +116,37 @@ socket.on('simstatus', function (data) {
   console.log("Listening simstatus "+JSON.stringify(data));
   if(data.details.engine){
     $(".otherControlsDashboard").show();
-    $("#engineState").prop('checked',data.details.engine);
-    $("#lampState").prop('checked',data.details.lamp);
+    $("#engineState").addClass('engine-active');     
+    // $("#engineState").prop('checked',data.details.engine);
+    // $("#lampState").prop('checked',data.details.lamp);
+    if(data.details.lamp){
+      console.log("lamp on")
+      $("#lampState").addClass('lamp-active');  
+    }else{
+      $("#lampState").removeClass( "lamp-active" )
+    }
     $("#listenSliderForDashboard").val(data.details.speed);
     $('.output b').text(data.details.speed);
-    $("#dashboardWifi").prop('checked',data.details.accessories.wifi);
-    $("#dashboardBt").prop('checked',data.details.accessories.bt);
+    // $("#dashboardWifi").prop('checked',data.details.accessories.wifi);
+    if(data.details.accessories.wifi){
+      console.log("wifi on")
+      $('#dashboardWifi').text("wifi");
+      
+    }else{
+      $('#dashboardWifi').text("wifi_off");     
+    }
+    // $("#dashboardBt").prop('checked',data.details.accessories.bt);
+    if(!data.details.accessories.bt){
+      console.log("wifi on")
+      $('#dashboardBt').removeClass("bt-active");
+      
+    }else{
+      $('#dashboardBt').addClass("bt-active");     
+    }
     $("#dashboardMedia").prop('checked',data.details.accessories.media);
   }else{
     $(".otherControlsDashboard").hide();
+    $("#engineState").removeClass( "engine-active" )    
   }
 });
 
@@ -116,9 +161,16 @@ socket.on('indicator', function (data) {
   $("#dashboardRIndicator").prop('checked',data.details.right);
 });
 
-$("#dashboardWifi").change(function() {
+$("#dashboardWifi").click(function() {
  console.log("wifi change called");
-  var wifiState = $("#dashboardWifi").is(":checked");
+  if($('#dashboardWifi').text().trim()==="wifi_off"){
+    console.log("wifi on")
+    $('#dashboardWifi').text("wifi");
+    
+  }else{
+    $('#dashboardWifi').text("wifi_off");     
+  }
+  var wifiState = $('#dashboardWifi').text().trim()==="wifi_off" ? false : true;
   console.log(wifiState);
   var postData = {
     "simid": config.simid,
@@ -144,9 +196,16 @@ $("#dashboardMedia").change(function() {
   		console.log(response);
   });
 });
-$("#dashboardBt").change(function() {
+$("#dashboardBt").click(function() {
  console.log("Bluetooth change called");
-  var btState = $("#dashboardBt").is(":checked");
+  if($('#dashboardBt').hasClass("bt-active")){
+    console.log("wifi on")
+    $('#dashboardBt').removeClass("bt-active");
+    
+  }else{
+    $('#dashboardBt').addClass("bt-active");     
+  }
+  var btState = $('#dashboardBt').hasClass("bt-active");
   console.log(btState);
   var postData = {
     "simid": config.simid,
