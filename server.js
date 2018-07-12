@@ -53,12 +53,12 @@ http.listen(port, function(){
 
 app.locals.socketClient = localClient.connect(config.hostName, {reconnect: true});
 app.locals.socketClient.on("connect",function(socketDetails){
-  log.info("Internal layer binded");
+  log.info("Internal $$ API <==> SOC $$ binded");
 });
 
 require('./src/controllers/indicator/indicate')(io);
 
-app.use('/',apiLimiter, apiRoutes);
+app.use('/', apiRoutes);
 
 module.exports = app;
 

@@ -2362,3 +2362,342 @@
 {"message":"simid:001userid:002speed","level":"info"}
 {"message":"userid:002adduser :to a new simulator :001request","level":"info"}
 {"message":"infoo foobar level-ed message","level":"info"}
+<<<<<<< HEAD
+=======
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal layer binded","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal layer binded","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :001request","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :001request","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :001request","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002accessories","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002speed","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002EngineStatus","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:001userid:002lamp","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> OPTIONS -> /wifi","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:111userid:002wifi","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"req -> OPTIONS -> /radio","level":"info"}
+{"message":"req -> POST -> /radio","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:111userid:002media","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /wifi","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:111userid:002wifi","level":"info"}
+{"message":"req -> OPTIONS -> /radio","level":"info"}
+{"message":"req -> POST -> /radio","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:111userid:002media","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"req -> OPTIONS -> /wifi","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:111userid:002wifi","level":"info"}
+{"message":"req -> OPTIONS -> /radio","level":"info"}
+{"message":"req -> POST -> /radio","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:111userid:002media","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> OPTIONS -> /wifi","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:111userid:002wifi","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> simid:111userid:002Bluetooth","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> OPTIONS -> /radio","level":"info"}
+{"message":"req -> POST -> /radio","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:111userid:002media","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001EngineStatus","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001lamp","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001EngineStatus","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001lamp","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001EngineStatus","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001lamp","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001EngineStatus","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001lamp","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> OPTIONS -> /wifi","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:111userid:002wifi","level":"info"}
+{"message":"req -> OPTIONS -> /blueTooth","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> simid:111userid:002Bluetooth","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"req -> OPTIONS -> /accessoriesstatus","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001accessories","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001simstatus","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:001speed","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:002adduser :to a new simulator :111request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:111userid:002currentstatus","level":"info"}
+{"message":"SOC ==> userid:001adduser :to a new simulator :111request","level":"info"}
+>>>>>>> 7686ba1c836e3a8f87051e2f7fac26d372c6e2ed
