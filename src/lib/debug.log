@@ -2361,3 +2361,4 @@
 {"message":"runningStatus","level":"info"}
 {"message":"simid:001userid:002speed","level":"info"}
 {"message":"userid:002adduser :to a new simulator :001request","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
