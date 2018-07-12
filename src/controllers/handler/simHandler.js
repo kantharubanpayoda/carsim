@@ -10,6 +10,7 @@ simStatus = function(req,res){
 
     var statusObj = new Object();
     statusObj = {'userid':userId,'simid':simId,'details':details};
+    log.info("simStatus :"+JSON.stringify(details));
     app.locals.socketClient.emit('simstatus',statusObj);
     res.status(200).send({'status':SUCCESS,info:statusObj});   
 }
