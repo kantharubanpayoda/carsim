@@ -23,10 +23,20 @@ var jsondata = new Object();
 jsondata = {"simid":config.simid,"userid":config.simualtorUserid };
 
 socket.on('connect', function(){
+  $(".otherControls").hide();
   console.log("socket client connected");
   socket.emit('adduser', jsondata);
+  checkEngineState();
 });
-
+function checkEngineState(){
+  var engineState = $("#engineControl").is(":checked");
+  console.log(engineState);
+  if(engineState){
+    $(".otherControls").show();
+  }else{
+    $(".otherControls").hide();
+  }
+};
 socket.on('wifi', function (data) {
   console.log("Listening wifi "+JSON.stringify(data));
   $("#wifi").prop('checked',data.status);
@@ -76,6 +86,13 @@ $("#engineControl").change(function() {
  console.log("Engine control change called");
   var engineState = $(this).is(":checked");
   console.log(engineState);
+
+  if(engineState){
+    $(".otherControls").show();
+  }else{
+    $(".otherControls").hide();
+  }
+
   var postData = {
     "simid": config.simid,
     "userid": config.simualtorUserid,

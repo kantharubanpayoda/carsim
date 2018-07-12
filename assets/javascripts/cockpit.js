@@ -45,10 +45,10 @@ jsondata = {"simid":config.simid,"userid":config.cockpitUserid };
 
 socket.on('connect', function(){
   console.log("socket client connected");
+  $(".otherControlsDashboard").hide();
   socket.emit('adduser', jsondata);
   getCurrentStateOfSimulator();
 });
-
 function getCurrentStateOfSimulator(){
 
   var url = config.serverURL + config.currentstatus + "?simid=" + config.simid +"&userid=" + config.cockpitUserid;
@@ -62,8 +62,13 @@ function getCurrentStateOfSimulator(){
 };
 
 socket.on('engine', function (data) {
-  console.log("Listening engine "+JSON.stringify(data));
-  $("#engineState").prop('checked',data.status);
+    console.log("Listening engine "+JSON.stringify(data));
+    $("#engineState").prop('checked',data.status);
+  if(data.status){
+    $(".otherControlsDashboard").show();
+  }else{
+    $(".otherControlsDashboard").hide();
+  }
 });
 
 socket.on('lamp', function (data) {
@@ -86,13 +91,18 @@ socket.on('accessories', function (data) {
 
 socket.on('simstatus', function (data) {
   console.log("Listening simstatus "+JSON.stringify(data));
-  $("#engineState").prop('checked',data.details.engine);
-  $("#lampState").prop('checked',data.details.lamp);
-  $("#listenSliderForDashboard").val(data.details.speed);
-  $('.output b').text(data.details.speed);
-  $("#dashboardWifi").prop('checked',data.details.accessories.wifi);
-  $("#dashboardBt").prop('checked',data.details.accessories.bt);
-  $("#dashboardMedia").prop('checked',data.details.accessories.media);
+  if(data.details.engine){
+    $(".otherControlsDashboard").show();
+    $("#engineState").prop('checked',data.details.engine);
+    $("#lampState").prop('checked',data.details.lamp);
+    $("#listenSliderForDashboard").val(data.details.speed);
+    $('.output b').text(data.details.speed);
+    $("#dashboardWifi").prop('checked',data.details.accessories.wifi);
+    $("#dashboardBt").prop('checked',data.details.accessories.bt);
+    $("#dashboardMedia").prop('checked',data.details.accessories.media);
+  }else{
+    $(".otherControlsDashboard").hide();
+  }
 });
 
 socket.on('hb', function (data) {
