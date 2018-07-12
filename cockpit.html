@@ -17,6 +17,7 @@
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
 		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
@@ -49,26 +50,32 @@
 				<div class="panel panel-sign">
 					<div class="panel-body">
 						<form>
+							<div class="col-12">
+								<h2>Base Controls</h2>
 							<div class="row">
 					      <div class="col-md-6">
 					        <p class="labelMargin">Engine State</p>
 					      </div>
 					      <div class="col-md-6 form-group">
-									<label class="switch">
+									<!-- <label class="switch">
 									  <input type="checkbox" id="engineState">
 									  <span class="slider round"></span>
-									</label>
+									</label> -->
+									<div class="switch material-icons" id="engineState">
+										<!-- <input type="checkbox" > -->
+										power_settings_new
+									</div>
 					      </div>
 					    </div>
 							<div class="row otherControlsDashboard">
 								<div class="col-md-6">
 									<p class="labelMargin">Lamp State</p>
 								</div>
-								<div class="col-md-6 form-group">
-									<label class="switch">
-										<input type="checkbox" id="lampState">
-										<span class="slider round"></span>
-									</label>
+								<div class="col-md-6">
+									<div class="switch material-icons" id="lampState">
+										<!-- <input type="checkbox" > -->
+										wb_sunny
+									</div>
 								</div>
 							</div>
 							<div class="row otherControlsDashboard">
@@ -77,39 +84,6 @@
 								</div>
 								<div class="col-md-6 form-group">
 									<p class="output labelMargin"><b>0</b> km/hr</p>
-								</div>
-							</div>
-							<div class="row otherControlsDashboard">
-								<div class="col-md-6">
-									<p class="labelMargin">Wifi</p>
-								</div>
-								<div class="col-md-6 form-group">
-									<label class="switch">
-										<input type="checkbox" id="dashboardWifi">
-										<span class="slider round"></span>
-									</label>
-								</div>
-							</div>
-							<div class="row otherControlsDashboard">
-								<div class="col-md-6">
-									<p class="labelMargin">Bluetooth</p>
-								</div>
-								<div class="col-md-6 form-group">
-									<label class="switch">
-										<input type="checkbox" id="dashboardBt">
-										<span class="slider round"></span>
-									</label>
-								</div>
-							</div>
-							<div class="row otherControlsDashboard">
-								<div class="col-md-6">
-									<p class="labelMargin">Media</p>
-								</div>
-								<div class="col-md-6 form-group">
-									<label class="switch">
-										<input type="checkbox" id="dashboardMedia">
-										<span class="slider round"></span>
-									</label>
 								</div>
 							</div>
 							<div class="row otherControlsDashboard">
@@ -123,6 +97,61 @@
 									</label>
 								</div>
 							</div>
+						</div>
+						<hr/>
+						<div class="col-md-6 otherControlsDashboard">
+								<div class="row">
+									<div class="col-md-12">
+										<h4>Accessories</h4>
+									</div>
+								</div>
+							<div class="row">
+								<div class="col-md-6">
+									<p class="labelMargin">Wifi</p>
+								</div>
+								<!-- <div class="col-md-6 form-group">
+									<label class="switch">
+										<input type="checkbox" id="dashboardWifi">
+										<span class="slider round"></span>
+									</label>
+								</div> -->
+								<div class="col-md-6">
+									<div class="switch material-icons clickable" id="dashboardWifi">
+										<!-- <input type="checkbox" > -->
+										wifi_off
+									</div>
+								</div>
+							</div>
+							<div class="row otherControlsDashboard">
+								<div class="col-md-6">
+									<p class="labelMargin">Bluetooth</p>
+								</div>
+								<div class="col-md-6 form-group">
+									<!-- <label class="switch">
+										<input type="checkbox" id="dashboardBt">
+										<span class="slider round"></span>
+									</label> -->
+									<div class="col-md-6">
+										<div class="switch material-icons clickable" id="dashboardBt">
+											<!-- <input type="checkbox" > -->
+											bluetooth
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row otherControlsDashboard">
+								<div class="col-md-6">
+									<p class="labelMargin">Media</p>
+								</div>
+								<div class="col-md-6 form-group">
+									<label class="switch">
+										<input type="checkbox" id="dashboardMedia">
+										<span class="slider round"></span>
+									</label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 otherControlsDashboard">
 							<div class="row otherControlsDashboard">
 								<div class="col-md-12">
 									<h4>Indicators</h4>
@@ -150,6 +179,7 @@
 									</label>
 								</div>
 							</div>
+						</div>
 						</form>
 					</div>
 				</div>
