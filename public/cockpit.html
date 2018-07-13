@@ -41,17 +41,17 @@
 		<link rel="stylesheet" href="assets/stylesheets/style.css" />
 
 	</head>
-	<body>
+	<body style="background:#1d1d1d">
 		<!-- start: page -->
 		<section class="body-sign">
-			<div>
-				<h1>Dashboard</h1>
+			<div style="background: #3d3d3d; border-radius:10px;top:4px">
+				<h1 class="dark-title" style="margin:8px;">Cockpit</h1>
 
 				<div class="panel panel-sign">
-					<div class="panel-body">
+					<div class="panel-body" style="background:#3d3d3d; color:whitesmoke">
 						<form>
 							<div class="col-12">
-								<h2>Base Controls</h2>
+								<h3 class="dark-title">Base Controls</h3>
 							<div class="row">
 					      <div class="col-md-6">
 					        <p class="labelMargin">Engine State</p>
@@ -61,9 +61,9 @@
 									  <input type="checkbox" id="engineState">
 									  <span class="slider round"></span>
 									</label> -->
-									<div class="switch material-icons" id="engineState">
+									<div class="switch material-icons outline" id="engineState">
 										<!-- <input type="checkbox" > -->
-										power_settings_new
+										album
 									</div>
 					      </div>
 					    </div>
@@ -83,18 +83,24 @@
 									<p class="labelMargin">Speed</p>
 								</div>
 								<div class="col-md-6 form-group">
-									<p class="output labelMargin"><b>0</b> km/hr</p>
+									<p class="output labelMargin cockpit-speed"><b>0</b> km/hr</p>
 								</div>
 							</div>
 							<div class="row otherControlsDashboard">
 								<div class="col-md-6">
 									<p class="labelMargin">Hand Brake</p>
 								</div>
-								<div class="col-md-6 form-group">
+								<!-- <div class="col-md-6 form-group">
 									<label class="switch">
 										<input type="checkbox" id="dashboardHandBrake">
 										<span class="slider round"></span>
 									</label>
+								</div> -->
+								<div class="col-md-6">
+									<div class="switch material-icons" id="dashboardHandBrake">
+										<!-- <input type="checkbox" > -->
+										error_outline
+									</div>
 								</div>
 							</div>
 						</div>
@@ -102,7 +108,7 @@
 						<div class="col-md-6 otherControlsDashboard">
 								<div class="row">
 									<div class="col-md-12">
-										<h4>Accessories</h4>
+										<h3 class="dark-title">Accessories</h3>
 									</div>
 								</div>
 							<div class="row">
@@ -143,40 +149,56 @@
 								<div class="col-md-6">
 									<p class="labelMargin">Media</p>
 								</div>
-								<div class="col-md-6 form-group">
+								<!-- <div class="col-md-6 form-group">
 									<label class="switch">
 										<input type="checkbox" id="dashboardMedia">
 										<span class="slider round"></span>
 									</label>
+								</div> -->
+								<div class="col-md-6">
+									<div class="switch material-icons clickable" id="dashboardMedia">
+										<!-- <input type="checkbox" > -->
+										play_circle_outline
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 otherControlsDashboard">
 							<div class="row otherControlsDashboard">
 								<div class="col-md-12">
-									<h4>Indicators</h4>
+									<h3 class="dark-title">Indicators</h3>
 								</div>
 							</div>
 							<div class="row otherControlsDashboard">
 								<div class="col-md-6">
 									<p class="labelMargin">Left Indicator</p>
 								</div>
-								<div class="col-md-6 form-group">
+								<!-- <div class="col-md-6 form-group">
 									<label class="switch">
 										<input type="checkbox" id="dashboardLIndicator">
 										<span class="slider round"></span>
 									</label>
+								</div> -->
+								<div class="col-md-6">
+									<div class="switch material-icons indicator" id="dashboardLIndicator">
+										arrow_back
+									</div>
 								</div>
 							</div>
 							<div class="row otherControlsDashboard">
 								<div class="col-md-6">
 									<p class="labelMargin">Right Indicator</p>
 								</div>
-								<div class="col-md-6 form-group">
+								<!-- <div class="col-md-6 form-group">
 									<label class="switch">
 										<input type="checkbox" id="dashboardRIndicator">
 										<span class="slider round"></span>
 									</label>
+								</div> -->
+								<div class="col-md-6">
+									<div class="switch material-icons indicator" id="dashboardRIndicator">
+											arrow_forward
+									</div>
 								</div>
 							</div>
 						</div>

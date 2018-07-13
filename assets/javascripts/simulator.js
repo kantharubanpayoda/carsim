@@ -28,10 +28,23 @@ socket.on('connect', function(){
   socket.emit('adduser', jsondata);
   checkEngineState();
 });
+//reset controls
+function resetControls(){
+  // $("#lampControl").prop('checked',false);
+  // $("#handBrake").prop('checked',false); 
+  $('.output b').text(0);  
+  console.log($('#listenSlider').val())
+  $('#listenSlider').val(0);
+  $(".slider-primary").slider("value", $(".slider-primary").slider("option", "min"))      
+  // $(".slider-primary").slider("values", 0, 0);
+  console.log($('#listenSlider').val())  
+}
 function checkEngineState(){
+  console.log("engine state check")
   var engineState = $("#engineControl").is(":checked");
   console.log(engineState);
   if(engineState){
+    resetControls();
     $(".otherControls").show();
   }else{
     $(".otherControls").hide();
@@ -84,15 +97,16 @@ socket.on('currentstatus', function (data) {
 
 $("#engineControl").change(function() {
  console.log("Engine control change called");
-  var engineState = $(this).is(":checked");
-  console.log(engineState);
+  // var engineState = $(this).is(":checked");
+  // console.log(engineState);
 
-  if(engineState){
-    $(".otherControls").show();
-  }else{
-    $(".otherControls").hide();
-  }
-
+  // if(engineState){
+  //   $(".otherControls").show();
+  // }else{
+  //   $(".otherControls").hide();
+  // }
+  checkEngineState();
+  var engineState = $("#engineControl").is(":checked");  
   var postData = {
     "simid": config.simid,
     "userid": config.simualtorUserid,
@@ -174,12 +188,30 @@ $("#handBrake").change(function() {
   });
 });
 
-$("#lIndicator,#rIndicator").change(function() {
- console.log("Indicator change called");
-  var lIndicatorState = $("#lIndicator").is(":checked");
-  console.log(lIndicatorState);
-  var rIndicatorState = $("#rIndicator").is(":checked");
-  console.log(rIndicatorState);
+$("#lIndicator").change(function() {
+ console.log("left Indicator change called");
+  // var lIndicatorState = $("#lIndicator").is(":checked");
+  // console.log(lIndicatorState);
+  // var rIndicatorState = $("#rIndicator").is(":checked");
+  // console.log(rIndicatorState);
+  if($("#rIndicator").is(":checked")){
+    $("#rIndicator").prop('checked',false);
+  }
+  lrIndicatorPost($("#lIndicator").is(":checked"), $("#rIndicator").is(":checked"), config);
+});
+$("#rIndicator").change(function() {
+  console.log("right Indicator change called");
+  //  var lIndicatorState = $("#lIndicator").is(":checked");
+  //  console.log(lIndicatorState);
+  //  var rIndicatorState = $("#rIndicator").is(":checked");
+  //  console.log(rIndicatorState);
+  if($("#lIndicator").is(":checked")){
+    $("#lIndicator").prop('checked',false);
+  }
+   lrIndicatorPost($("#lIndicator").is(":checked"), $("#rIndicator").is(":checked"), config);
+ });
+//post data to l/r indicators
+function lrIndicatorPost(lIndicatorState, rIndicatorState, config){
   var details = {
     "left":lIndicatorState,
     "right":rIndicatorState
@@ -193,4 +225,4 @@ $("#lIndicator,#rIndicator").change(function() {
   postRequest(url, postData, function(response){
   		console.log(response);
   });
-});
+}

@@ -17,6 +17,7 @@
 
 		<!-- Vendor CSS -->
 		<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">		
 
 		<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
 		<link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
@@ -40,18 +41,20 @@
 		<link rel="stylesheet" href="assets/stylesheets/style.css" />
 
 	</head>
-	<body>
+	<body style="background-image: url('car.jpg');background-size: 100%;">
 		<!-- start: page -->
 		<section class="body-sign">
-			<div>
-				<h1>Simulator</h1>
+			<div style="background: #bed2d6; border-radius:10px;color:black">
+				<h1 style="margin:8px">Simulator</h1>
 
 				<div class="panel panel-sign">
-					<div class="panel-body">
+					<div class="panel-body" style="background: #bed2d6;">
 						<form>
+						<div class="col-12">
+							<h3>Base Controls</h3>
 							<div class="row">
 					      <div class="col-md-6">
-					        <p class="labelMargin">Engine Control</p>
+					        <p class="labelMargin">Engine Ignition</p>
 					      </div>
 					      <div class="col-md-6 form-group">
 									<label class="switch">
@@ -62,7 +65,7 @@
 					    </div>
 							<div class="row otherControls">
 								<div class="col-md-6">
-									<p class="labelMargin">Lamp Control</p>
+									<p class="labelMargin">Lamp</p>
 								</div>
 								<div class="col-md-6 form-group">
 									<label class="switch">
@@ -82,6 +85,26 @@
 									<p class="output"><b>0</b> km/hr</p>
 								</div>
 							</div>
+							<div class="row otherControls">
+								<div class="col-md-6">
+									<p class="labelMargin">Hand Brake</p>
+								</div>
+								<div class="col-md-6 form-group">
+									<label class="switch">
+										<input type="checkbox" id="handBrake">
+										<span class="slider round"></span>
+									</label>
+								</div>
+							</div>
+							</div>
+							<hr/>
+
+							<div class="col-md-6 otherControls">
+								<div class="row">
+									<div class="col-md-12">
+										<h3>Accessories</h3>
+									</div>
+								</div>
 							<div class="row otherControls">
 								<div class="col-md-6">
 									<p class="labelMargin">Wifi</p>
@@ -115,20 +138,12 @@
 									</label>
 								</div>
 							</div>
-							<div class="row otherControls">
-								<div class="col-md-6">
-									<p class="labelMargin">Hand Brake</p>
-								</div>
-								<div class="col-md-6 form-group">
-									<label class="switch">
-										<input type="checkbox" id="handBrake">
-										<span class="slider round"></span>
-									</label>
-								</div>
 							</div>
+							
+						<div class="col-md-6 otherControls">							
 							<div class="row otherControls">
 								<div class="col-md-12">
-									<h4>Indicators</h4>
+									<h3>Indicators</h3>
 								</div>
 							</div>
 							<div class="row otherControls">
@@ -152,6 +167,7 @@
 										<span class="slider round"></span>
 									</label>
 								</div>
+							</div>
 							</div>
 						</form>
 					</div>

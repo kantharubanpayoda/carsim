@@ -60,7 +60,10 @@ function getCurrentStateOfSimulator(){
     }
   });
 };
-
+//reset controls on engine off and then on
+function resetControls(){
+  $('.output b').text(0);  
+}
 socket.on('engine', function (data) {
     console.log("Listening engine "+JSON.stringify(data));
     // $("#engineState").prop('checked',data.status);
@@ -69,8 +72,9 @@ socket.on('engine', function (data) {
       $("#engineState").addClass('engine-active'); 
       $(".otherControlsDashboard").show();       
     }else{
+      resetControls();      
+      $("#engineState").removeClass( "engine-active" )      
       $(".otherControlsDashboard").hide();
-      $("#engineState").removeClass( "engine-active" )
     }
 });
 
@@ -97,19 +101,27 @@ socket.on('accessories', function (data) {
   if(data.accessories.wifi){
     console.log("wifi on")
     $('#dashboardWifi').text("wifi");
-    
+    $('#dashboardWifi').addClass("acc-active");    
   }else{
-    $('#dashboardWifi').text("wifi_off");     
+    $('#dashboardWifi').text("wifi_off");  
+    $('#dashboardWifi').removeClass("acc-active");       
   }
   // $("#dashboardBt").prop('checked',data.accessories.bt);
   if(!data.accessories.bt){
     console.log("bt on")
-    $('#dashboardBt').removeClass("bt-active");
+    $('#dashboardBt').removeClass("acc-active");
     
   }else{
-    $('#dashboardBt').addClass("bt-active");     
+    $('#dashboardBt').addClass("acc-active");     
   }
-  $("#dashboardMedia").prop('checked',data.accessories.media);
+  // $("#dashboardMedia").prop('checked',data.accessories.media);
+  if(!data.accessories.media){
+    console.log("wifi on")
+    $('#dashboardMedia').removeClass("acc-active");
+    
+  }else{
+    $('#dashboardMedia').addClass("acc-active");     
+  }
 });
 
 socket.on('simstatus', function (data) {
@@ -131,20 +143,30 @@ socket.on('simstatus', function (data) {
     if(data.details.accessories.wifi){
       console.log("wifi on")
       $('#dashboardWifi').text("wifi");
+      $('#dashboardWifi').addClass("acc-active");      
       
     }else{
-      $('#dashboardWifi').text("wifi_off");     
+      $('#dashboardWifi').text("wifi_off");  
+      $('#dashboardWifi').removeClass("acc-active");       
     }
     // $("#dashboardBt").prop('checked',data.details.accessories.bt);
     if(!data.details.accessories.bt){
       console.log("wifi on")
-      $('#dashboardBt').removeClass("bt-active");
+      $('#dashboardBt').removeClass("acc-active");
       
     }else{
-      $('#dashboardBt').addClass("bt-active");     
+      $('#dashboardBt').addClass("acc-active");     
     }
-    $("#dashboardMedia").prop('checked',data.details.accessories.media);
+    // $("#dashboardMedia").prop('checked',data.details.accessories.media);
+    if(!data.details.accessories.media){
+      console.log("wifi on")
+      $('#dashboardMedia').removeClass("acc-active");
+      
+    }else{
+      $('#dashboardMedia').addClass("acc-active");     
+    }
   }else{
+    resetControls();
     $(".otherControlsDashboard").hide();
     $("#engineState").removeClass( "engine-active" )    
   }
@@ -152,13 +174,30 @@ socket.on('simstatus', function (data) {
 
 socket.on('hb', function (data) {
   console.log("Listening hb "+JSON.stringify(data));
-  $("#dashboardHandBrake").prop('checked',data.status);
+  if(data.status){
+    console.log("lamp on")
+    $("#dashboardHandBrake").addClass('brake-active');  
+  }else{
+    $("#dashboardHandBrake").removeClass( "brake-active" )
+  }
+  // $("#dashboardHandBrake").prop('checked',data.status);
 });
 
 socket.on('indicator', function (data) {
   console.log("Listening indicator "+JSON.stringify(data));
-  $("#dashboardLIndicator").prop('checked',data.details.left);
-  $("#dashboardRIndicator").prop('checked',data.details.right);
+  // $("#dashboardLIndicator").prop('checked',data.details.left);
+  if(data.details.left){
+    console.log("lamp on")
+    $("#dashboardRIndicator").removeClass('indicator-active');      
+    $("#dashboardLIndicator").addClass('indicator-active');  
+  }else if(data.details.right){
+    $("#dashboardLIndicator").removeClass('indicator-active');  
+    $("#dashboardRIndicator").addClass( "indicator-active" )
+  }else{
+    $("#dashboardLIndicator").removeClass('indicator-active');  
+    $("#dashboardRIndicator").removeClass('indicator-active');      
+  }
+  // $("#dashboardRIndicator").prop('checked',data.details.right);
 });
 
 $("#dashboardWifi").click(function() {
@@ -166,8 +205,10 @@ $("#dashboardWifi").click(function() {
   if($('#dashboardWifi').text().trim()==="wifi_off"){
     console.log("wifi on")
     $('#dashboardWifi').text("wifi");
+    $('#dashboardWifi').addClass("acc-active");         
     
   }else{
+    $('#dashboardWifi').removeClass("acc-active");    
     $('#dashboardWifi').text("wifi_off");     
   }
   var wifiState = $('#dashboardWifi').text().trim()==="wifi_off" ? false : true;
@@ -182,9 +223,16 @@ $("#dashboardWifi").click(function() {
   		console.log(response);
   });
 });
-$("#dashboardMedia").change(function() {
+$("#dashboardMedia").click(function() {
  console.log("Media change called");
-  var mediaState = $("#dashboardMedia").is(":checked");
+ if($('#dashboardMedia').hasClass("acc-active")){
+    console.log("wifi on")
+    $('#dashboardMedia').removeClass("acc-active");
+    
+  }else{
+    $('#dashboardMedia').addClass("acc-active");     
+  }
+  var mediaState = $("#dashboardMedia").hasClass("acc-active");
   console.log(mediaState);
   var postData = {
     "simid": config.simid,
@@ -198,14 +246,14 @@ $("#dashboardMedia").change(function() {
 });
 $("#dashboardBt").click(function() {
  console.log("Bluetooth change called");
-  if($('#dashboardBt').hasClass("bt-active")){
+  if($('#dashboardBt').hasClass("acc-active")){
     console.log("wifi on")
-    $('#dashboardBt').removeClass("bt-active");
+    $('#dashboardBt').removeClass("acc-active");
     
   }else{
-    $('#dashboardBt').addClass("bt-active");     
+    $('#dashboardBt').addClass("acc-active");     
   }
-  var btState = $('#dashboardBt').hasClass("bt-active");
+  var btState = $('#dashboardBt').hasClass("acc-active");
   console.log(btState);
   var postData = {
     "simid": config.simid,
