@@ -8768,3 +8768,356 @@
 {"message":"req -> POST -> /enginestatus","level":"info"}
 {"message":"API ==>engineStatus","level":"info"}
 {"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}

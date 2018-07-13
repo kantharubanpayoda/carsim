@@ -86,9 +86,18 @@ input:checked + .slider:before {
 }
 .indicator{
   font-weight: bolder;
+  right: 10px;
+  top: 4px;
 }
 .indicator-active{
   color:#69ed0b;
+  animation: blinker 1s linear infinite;  
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
 .dark-title{
   color:whitesmoke;
@@ -100,4 +109,10 @@ input:checked + .slider:before {
   color: black;
   font-weight: bolder;
   border-radius: 12px
+}
+.not-clickable{
+  cursor: default;
+}
+.cockpit-hr{
+  background-image: -webkit-linear-gradient(left, transparent, rgba(200, 200,200, 0.2), transparent);
 }
