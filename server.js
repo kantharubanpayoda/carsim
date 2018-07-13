@@ -4,15 +4,23 @@ var config = require('./config/config');
 var passport = require('passport');
 var apiRoutes = require("./src/controllers/routes");
 var port = process.env.PORT || 3000;
+var ports = process.env.PORTS || 3001;
 var log = require('./src/lib/logger');
 var express = require('express');
 var RateLimit = require('express-rate-limit');
 var localClient = require('socket.io-client');
 var path = require('path');
+var fs = require('fs');
     //global app object creation
     app = express();
+var privateKey  = fs.readFileSync('./certs/key.pem');
+var certificate = fs.readFileSync('./certs/cert.pem');
+var sslOptions = {key: privateKey, cert: certificate};
+var https = require('https').Server(sslOptions, app);
 var http = require('http').Server(app);
+var io = require('socket.io')(https);
 var io = require('socket.io')(http);
+
 
    // app.enable('trust proxy'); // only if you're behind a reverse proxy (Heroku, Bluemix, AWS if you use an ELB, custom Nginx setup, etc)
  
@@ -43,12 +51,16 @@ app.use(function (req, res, next) {
 
 //app.use('/api/v1*', authenticate,proxy);
 
+
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.set('assets', path.join(__dirname, 'assets'));
 app.use(express.static(__dirname + '/public'));
 app.locals.rootDir=__dirname;
 
+https.listen(ports, function(){
+	log.info('Node Server listening on port$:'+ports);
+});
 http.listen(port, function(){
 	log.info('Node Server listening on port$:'+port);
 });
