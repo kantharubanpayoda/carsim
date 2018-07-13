@@ -14,7 +14,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: #aaa;
   -webkit-transition: .4s;
   transition: .4s;
 }
@@ -68,9 +68,9 @@ input:checked + .slider:before {
 }
 .engine-active{
   font-weight: bold;
-  color: orangered;
+  color: #02e815;
 }
-.bt-active{
+.acc-active{
   /* font-weight: bold; */
   color: #1DA1F2;
 }
@@ -79,4 +79,25 @@ input:checked + .slider:before {
 }
 .clickable:hover{
   opacity: 0.7;
+}
+.brake-active{
+  font-weight: bold;
+  color: #e82401; 
+}
+.indicator{
+  font-weight: bolder;
+}
+.indicator-active{
+  color:#69ed0b;
+}
+.dark-title{
+  color:whitesmoke;
+}
+.cockpit-speed{
+  background: #ccc;
+  width: 45%;
+  padding: 8px;
+  color: black;
+  font-weight: bolder;
+  border-radius: 12px
 }
