@@ -9121,3 +9121,1374 @@
 {"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
 {"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
 {"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:112userid:004wifi ON/OFF","level":"info"}
+{"message":"req -> POST -> /media","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:112userid:004media ON/OFF","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> simid:112userid:004Bluetooth ON/OFF","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> simid:112userid:004Bluetooth ON/OFF","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":false,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":false,\"media\":true}}}","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /favicon.ico","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/jquery.nanoscroller.js.map","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js.map","level":"info"}
+{"message":"req -> OPTIONS -> /enginestatus","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> OPTIONS -> /currentstatus","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> OPTIONS -> /simulatorstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> OPTIONS -> /lampstatus","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> OPTIONS -> /runningstatus","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"req -> OPTIONS -> /handBrake","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /favicon.ico","level":"info"}
+{"message":"req -> GET -> /favicon.ico","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":false,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"updated the AC status:{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"updated the LAMP status:{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":0,\"n\":0}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1,\"upserted\":[{\"index\":0,\"_id\":\"5b4daa52f6996517bf80b8a9\"}]}","level":"info"}
+{"message":"updated the AC status:{\"ok\":1,\"nModified\":0,\"n\":1,\"upserted\":[{\"index\":0,\"_id\":\"5b4daa52f6996517bf80b8a9\"}]}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the AC status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":false,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":false,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false}}}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"req -> POST -> /blueTooth","level":"info"}
+{"message":"API ==>blueTooth","level":"info"}
+{"message":"SOC ==> simid:112userid:004Bluetooth ON/OFF","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the BT status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /media","level":"info"}
+{"message":"API ==>media","level":"info"}
+{"message":"SOC ==> simid:112userid:004media ON/OFF","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the MEDIA status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:112userid:004wifi ON/OFF","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the wifi status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /wifi","level":"info"}
+{"message":"API ==>wifi","level":"info"}
+{"message":"SOC ==> simid:112userid:004wifi ON/OFF","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the wifi status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":true,\"right\":false}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"DB=>update ERROR","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":true,\"speed\":\"0\",\"accessories\":{\"wifi\":true,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":false,\"right\":false}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":false,\"right\":true}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /accessoriesstatus","level":"info"}
+{"message":"API ==>accessoriesStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003accessories","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the accessoriesStatus :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the LAMP status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatustrue","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the LAMP status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatusfalse","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the LAMP status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /simulator","level":"info"}
+{"message":"Launch simulator","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/simulator.js","level":"info"}
+{"message":"req -> GET -> /car.jpg","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /cockpit","level":"info"}
+{"message":"Launch cockpit","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/css/bootstrap.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/font-awesome/css/font-awesome.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/css/datepicker3.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/skins/default.css","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/theme-custom.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/modernizr/modernizr.js","level":"info"}
+{"message":"req -> GET -> /assets/stylesheets/style.css","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery/jquery.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap/js/bootstrap.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/nanoscroller/nanoscroller.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/magnific-popup/magnific-popup.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-placeholder/jquery.placeholder.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui/js/jquery-ui-1.10.4.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/vendor/jquery-ui-touch-punch/jquery.ui.touch-punch.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.custom.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/theme.init.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/config.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/socket.io.js","level":"info"}
+{"message":"req -> GET -> /assets/javascripts/cockpit.js","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /enginestatus","level":"info"}
+{"message":"API ==>engineStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003EngineStatus","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"Engine Status :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"infoo foobar level-ed message","level":"info"}
+{"message":"Node Server listening on port$:3001","level":"info"}
+{"message":"Node Server listening on port$:3000","level":"info"}
+{"message":"Internal $$ API <==> SOC $$ binded","level":"info"}
+{"message":"SOC ==> userid:003adduser :to a new simulator :112request","level":"info"}
+{"message":"SOC ==> userid:004adduser :to a new simulator :112request","level":"info"}
+{"message":"req -> GET -> /currentstatus","level":"info"}
+{"message":"API ==>currentStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:004currentstatus","level":"info"}
+{"message":"req -> POST -> /simulatorstatus","level":"info"}
+{"message":"API ==>simStatus","level":"info"}
+{"message":"simStatus :{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}","level":"info"}
+{"message":"SOC ==> simid:112userid:003simstatus","level":"info"}
+{"message":"SIM status :{\"userid\":\"003\",\"simid\":\"112\",\"details\":{\"engine\":true,\"lamp\":false,\"speed\":\"0\",\"accessories\":{\"wifi\":false,\"bt\":true,\"media\":true}}}","level":"info"}
+{"message":"req -> POST -> /status","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"0\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"0\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":true,\"lamp\":false}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":false,\"lamp\":false}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":false,\"lamp\":false}","level":"info"}
+{"message":"req -> POST -> /lampstatus","level":"info"}
+{"message":"API ==>lampStatustrue","level":"info"}
+{"message":"SOC ==> simid:112userid:003lamp","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the LAMP status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":false,\"lamp\":true}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"46\",\"handbrake\":false,\"lamp\":true}","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"0\",\"handbrake\":true,\"lamp\":true}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"0\",\"handbrake\":true,\"lamp\":true}","level":"info"}
+{"message":"req -> POST -> /handBrake","level":"info"}
+{"message":"API ==>handBrake","level":"info"}
+{"message":"SOC ==> simid:112userid:003HandBrake status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the handBrake status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /runningstatus","level":"info"}
+{"message":"API ==>runningStatus","level":"info"}
+{"message":"SOC ==> simid:112userid:003speed","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the SPEED status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> GET -> /status","level":"info"}
+{"message":"API ==> STATUS","level":"info"}
+{"message":"QUERY RESULT:{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"19\",\"handbrake\":false,\"lamp\":true}","level":"info"}
+{"message":"FIND SIM :{\"accessories\":{\"wifi\":false,\"bt\":false,\"media\":false,\"ac\":false},\"indicator\":{\"left\":false,\"right\":false},\"_id\":\"5b4daa52f6996517bf80b8a9\",\"simid\":\"112\",\"__v\":0,\"engine\":true,\"speed\":\"19\",\"handbrake\":false,\"lamp\":true}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":false,\"right\":false}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":0,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":true,\"right\":false}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":false,\"right\":true}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"req -> POST -> /indicator","level":"info"}
+{"message":"API ==>indicator{\"left\":false,\"right\":false}","level":"info"}
+{"message":"SOC ==> simid:112userid:003indicator status","level":"info"}
+{"message":"QUERY RESULT :{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}
+{"message":"updated the indicator status:{\"ok\":1,\"nModified\":1,\"n\":1}","level":"info"}

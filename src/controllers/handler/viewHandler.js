@@ -1,6 +1,6 @@
 const log = require('../../lib/logger');
 const SUCCESS = 'success';
-
+const dao = require('../../models/dao');
 
 //getCurrent status of simulator
 //routes.get('/currentstatus',viewHandler.currentStatus);
@@ -26,7 +26,11 @@ blueTooth = function(req,res){
     var statusObj = new Object();
     statusObj = {'userid':userId,'simid':simId,'status':status};
     app.locals.socketClient.emit('bt',statusObj);
-    res.status(200).send({'status':SUCCESS,info:statusObj});   
+    res.status(200).send({'status':SUCCESS,info:statusObj});
+    //updateDB
+    dao.updateDB(simId,{'accessories.bt':status},function(result){
+        log.info("updated the BT status:"+JSON.stringify(result));
+    }); 
 }
 module.exports.blueTooth = blueTooth;
 
@@ -40,7 +44,11 @@ wifi = function(req,res){
     var statusObj = new Object();
     statusObj = {'userid':userId,'simid':simId,'status':status};
     app.locals.socketClient.emit('wifi',statusObj);
-    res.status(200).send({'status':SUCCESS,info:statusObj});   
+    res.status(200).send({'status':SUCCESS,info:statusObj});
+    //updateDB
+    dao.updateDB(simId,{'accessories.wifi':status},function(result){
+        log.info("updated the wifi status:"+JSON.stringify(result));
+    });   
 }
 module.exports.wifi = wifi;
 
@@ -54,7 +62,11 @@ media = function(req,res){
     var statusObj = new Object();
     statusObj = {'userid':userId,'simid':simId,'status':status};
     app.locals.socketClient.emit('media',statusObj);
-    res.status(200).send({'status':SUCCESS,info:statusObj});   
+    res.status(200).send({'status':SUCCESS,info:statusObj});
+    //updateDB
+    dao.updateDB(simId,{'accessories.media':status},function(result){
+        log.info("updated the MEDIA status:"+JSON.stringify(result));
+    }); 
 }
 module.exports.media = media;
 
@@ -68,6 +80,20 @@ airCondition = function(req,res){
     var statusObj = new Object();
     statusObj = {'userid':userId,'simid':simId,'status':status};
     app.locals.socketClient.emit('ac',statusObj);
-    res.status(200).send({'status':SUCCESS,info:statusObj});   
+    res.status(200).send({'status':SUCCESS,info:statusObj});
+    //updateDB 
+    dao.updateDB(simId,{'accessories.ac':status},function(result){
+        log.info("updated the AC status:"+JSON.stringify(result));
+    });  
 }
 module.exports.airCondition = airCondition;
+
+status = function(req,res){
+    var simId = req.query.simid;
+    log.info("API ==> STATUS");
+    dao.findSim(simId,function(result){
+        log.info("FIND SIM :"+JSON.stringify(result));
+        res.status(200).send(result);
+    });
+}
+module.exports.status = status;
