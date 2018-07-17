@@ -17,6 +17,27 @@ function postRequest(url,postData,callback, errorCallback){
         }
     });
 }
+
+function getRequest(url,callback, errorCallback){
+  $.ajax({
+      type: "GET",
+      beforeSend: function(request) {
+          request.setRequestHeader("Content-Type", 'application/json');
+      },
+      url: url,
+      data: "",
+      success: function(data) {
+          // console.log(JSON.stringify(data));
+          callback(data);
+      },
+      error: function(jqXHR, textStatus, errorThrown) {
+          console.log('jqXHR:'+JSON.stringify(jqXHR));
+          console.log('textStatus:'+textStatus);
+          console.log('errorThrown:'+errorThrown);
+      }
+  });
+}
+
 var socket = io.connect(config.socketURl);
 
 var jsondata = new Object();
@@ -26,20 +47,55 @@ socket.on('connect', function(){
   $(".otherControls").hide();
   console.log("socket client connected");
   socket.emit('adduser', jsondata);
-  checkEngineState();
+  getCurrentStatus();
+  // checkEngineState();
 });
+
+function getCurrentStatus(){
+  var simid = config.simid;
+  var url = config.serverURL + config.status + "?simid=" + config.simid;
+  getRequest(url, function(data) {
+    if(data) {
+      console.log(data);
+      checkEngineState(data.engine);
+      $("#engineControl").prop('checked',data.engine);
+      $("#wifi").prop('checked',data.accessories.wifi);
+      $("#media").prop('checked',data.accessories.media);
+      $("#bt").prop('checked',data.accessories.bt);
+      $("#handBrake").prop('checked',data.handbrake);
+      $("#lIndicator").prop('checked',data.indicator.left);
+      $("#rIndicator").prop('checked',data.indicator.right);
+      $("#lampControl").prop('checked',data.lamp);
+      $('.output b').text(data.speed);
+      $('#listenSlider').val(data.speed);
+      $(".slider-primary").slider("value",data.speed);
+    }
+  });
+}
+
 //reset controls
 function resetControls(){
   // $("#lampControl").prop('checked',false);
-  // $("#handBrake").prop('checked',false); 
-  $('.output b').text(0);  
+  // $("#handBrake").prop('checked',false);
+  $('.output b').text(0);
   console.log($('#listenSlider').val())
   $('#listenSlider').val(0);
-  $(".slider-primary").slider("value", $(".slider-primary").slider("option", "min"))      
+  $(".slider-primary").slider("value", $(".slider-primary").slider("option", "min"))
   // $(".slider-primary").slider("values", 0, 0);
-  console.log($('#listenSlider').val())  
+  console.log($('#listenSlider').val())
 }
-function checkEngineState(){
+function checkEngineState(engineState){
+  console.log("engine state check")
+  // var engineState = $("#engineControl").is(":checked");
+  // console.log(engineState);
+  if(engineState){
+    resetControls();
+    $(".otherControls").show();
+  }else{
+    $(".otherControls").hide();
+  }
+};
+function checkEngineStateOnline(engineState){
   console.log("engine state check")
   var engineState = $("#engineControl").is(":checked");
   console.log(engineState);
@@ -105,8 +161,8 @@ $("#engineControl").change(function() {
   // }else{
   //   $(".otherControls").hide();
   // }
-  checkEngineState();
-  var engineState = $("#engineControl").is(":checked");  
+  checkEngineStateOnline();
+  var engineState = $("#engineControl").is(":checked");
   var postData = {
     "simid": config.simid,
     "userid": config.simualtorUserid,
