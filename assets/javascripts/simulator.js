@@ -132,6 +132,7 @@ socket.on('currentstatus', function (data) {
   var details = {
     "engine":$("#engineControl").is(":checked"),
     "lamp":$("#lampControl").is(":checked"),
+    "handbrake":$("#handBrake").is(":checked"),
     "speed":$('.output b').text(),
     "accessories":accessories
   };

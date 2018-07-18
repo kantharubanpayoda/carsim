@@ -137,6 +137,14 @@ socket.on('simstatus', function (data) {
     }else{
       $("#lampState").removeClass( "lamp-active" )
     }
+
+    if(data.details.handbrake){
+      console.log("handbrake on")
+      $("#dashboardHandBrake").addClass('brake-active');  
+    }else{
+      $("#dashboardHandBrake").removeClass( "brake-active" )
+    }
+
     $("#listenSliderForDashboard").val(data.details.speed);
     $('.output b').text(data.details.speed);
     // $("#dashboardWifi").prop('checked',data.details.accessories.wifi);
