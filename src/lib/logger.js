@@ -3,10 +3,10 @@
 // //logger.addColors({debug: 'green',info:  'cyan',silly: 'magenta',warn:  'yellow',error: 'red'});
 // logger.add(logger.transports.File, {filename:'../log/logfile.log', json: true });
 // module.exports = logger;
-
 var winston = require('winston');
 var MongoDB = require('winston-mongodb');
 var config = require('../../config/config');
+require('winston-daily-rotate-file');   
 
 // TR: console'da sadece hepsi tutuluyor olacak çünkü info log seviyesinden sonra diğer tüm log seviyeleri sıralanmış
 // EN: all log level will be shown in Console, because 'info' is on the top of list with 0 value.
@@ -14,8 +14,16 @@ var transportConsole = new winston.transports.Console({ json: false, timestamp: 
 
 // TR: File'da sadece i ve db tutuluyor olacak çünkü i den sonra db log seviyesi sıralanmış
 // EN: 'i' and 'db' log levels will be shown in File, because db is after i and for File transport level is 'i'
-transportFileDebug = new winston.transports.File({ filename:__dirname+'/debug.log', json: true }),
-transportFileException = new winston.transports.File({ filename:__dirname + '/exceptions.log', json: false });
+transportFileDebug = new winston.transports.File({ filename:__dirname+'/logs/debug-%DATE%.log', json: true }),
+transportFileException = new winston.transports.File({ filename:__dirname+'/logs/exceptions.log', json: false });
+
+var transportr = new (winston.transports.DailyRotateFile)({
+    filename: __dirname+'/logs/debug-%DATE%.log',
+    datePattern: 'YYYY-MM-DD-HH',
+    zippedArchive: true,
+    maxSize: '1m',
+    maxFiles: '14d'
+  });
 /*transportMongoDB = new winston.transports.MongoDB({
             db : config.dbHost+'/'+config.dbName,
             collection: 'logs'
@@ -41,7 +49,8 @@ var logger = winston.createLogger({
     },
     transports: [
         transportConsole,
-        transportFileDebug
+        transportFileDebug,
+        transportr
        // transportMongoDB
     ],
     exceptionHandlers: [
