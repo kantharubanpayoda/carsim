@@ -45,6 +45,7 @@ routes.post('/handbrake',simHandler.handBrake);
 routes.post('/indicator',simHandler.indicator);
 
 //common
-routes.get('/status',viewHandler.status);
+routes.get('/simulator/status',viewHandler.status);
+routes.get('/cockpit/status',viewHandler.status);
 
 module.exports = routes;

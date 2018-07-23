@@ -90,10 +90,11 @@ module.exports.airCondition = airCondition;
 
 status = function(req,res){
     var simId = req.query.simid;
-    log.info("API ==> STATUS");
-    dao.findSim(simId,function(result){
-        log.info("FIND SIM :"+JSON.stringify(result));
-        res.status(200).send(result);
-    });
+    log.info("API ==> STATUS"+simId);
+    
+        dao.findSim(simId,function(result){
+            log.info("FIND Status "+simId+" :"+JSON.stringify(result));
+            res.status(200).send(result);
+        });
 }
 module.exports.status = status;

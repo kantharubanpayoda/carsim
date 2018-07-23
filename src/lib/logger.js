@@ -14,14 +14,14 @@ var transportConsole = new winston.transports.Console({ json: false, timestamp: 
 
 // TR: File'da sadece i ve db tutuluyor olacak çünkü i den sonra db log seviyesi sıralanmış
 // EN: 'i' and 'db' log levels will be shown in File, because db is after i and for File transport level is 'i'
-transportFileDebug = new winston.transports.File({ filename:__dirname+'/logs/debug-%DATE%.log', json: true }),
+//transportFileDebug = new winston.transports.File({ filename:__dirname+'/logs/debug-%DATE%.log', json: true }),
 transportFileException = new winston.transports.File({ filename:__dirname+'/logs/exceptions.log', json: false });
 
 var transportr = new (winston.transports.DailyRotateFile)({
     filename: __dirname+'/logs/debug-%DATE%.log',
-    datePattern: 'YYYY-MM-DD-HH',
+    datePattern: 'YYYY-MM-DD-HH-MM',
     zippedArchive: true,
-    maxSize: '1m',
+    maxSize: '1000m',
     maxFiles: '14d'
   });
 /*transportMongoDB = new winston.transports.MongoDB({
@@ -41,15 +41,15 @@ var logger = winston.createLogger({
         i: 4,
         db: 5
     },
-    dailyRotateFile: {
-      colorize: 'true',
-      filename: __dirname+'/debug.log',
-      datePattern: '.yyyy-MM-dd',
-      maxsize: 20000
-    },
+    // dailyRotateFile: {
+    //   colorize: 'true',
+    //   filename: __dirname+'/debug.log',
+    //   datePattern: '.yyyy-MM-dd',
+    //   maxsize: 20000
+    // },
     transports: [
         transportConsole,
-        transportFileDebug,
+        //transportFileDebug,
         transportr
        // transportMongoDB
     ],
